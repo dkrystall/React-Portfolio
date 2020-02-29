@@ -1,10 +1,10 @@
 let resumeData = {
   "imagebaseurl":"https://github.com/dkrystall/",
   "name": "David Krystall",
-  "role": "Full Stack and Mobile App Developer",
+  "role": "Software Engineer",
   "linkedinId":"david-krystall-64646a15",
   "skypeid": "",
-  "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, or play games in my free time.",
+  "roleDescription": " I like tinkering in various parts of the development stack and like to learn about new technologies, or play games and piano in my free time.",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -17,14 +17,20 @@ let resumeData = {
         "className":"fa fa-github"
       },
       {
-        "name":"skype",
+        "name":"twitter",
         "url":"http://twitter.com/retebitall",
         "className":"fa fa-twitter"
+      },
+      {
+        "name":"myspace",
+        "url":"https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "className":"fa fa-myspace"
       }
     ],
-  "aboutme":"I am currently a Software Engineer working in Los Angeles, California. The majority of my time is spent coding iOS applications using Swift with XCode. I've recently begun transitioning into doing front end work with SwiftUI. In my spare code time I also enjoy learning new methodologies and currently studying Functional Programming with Scala. I'm also an avid gamer and movie lover.",
+  "aboutme":"I am currently a Software Engineer working in Los Angeles, California. The majority of my time is spent coding iOS applications using Swift with XCode. I've recently begun transitioning into doing front end work with SwiftUI. In my spare code time I also enjoy learning new methodologies and currently studying Functional Programming with Scala. I'm also a classical pianist, an avid gamer, and a movie lover.",
   "address":"Los Angeles, California, USA",
   "website":"https://github.com/dkrystall/",
+  "email":"dave@davidkrystall.com",
   "education":[
     {
       "UniversityName":"California State University, Los Angeles",
@@ -88,33 +94,33 @@ let resumeData = {
   ],
   "portfolio":[
     {
-      "name":"project1",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/coffee.jpg"
+      "name":"Travel Planner",
+      "description":"iOS App",
+      "imgurl":"images/portfolio/travel.png"
     },
     {
-      "name":"project2",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/coffee.jpg"
+      "name":"eHawk Tracker",
+      "description":"iOS and Android app",
+      "imgurl":"images/portfolio/eHawk.png"
     },
     {
-      "name":"project3",
-      "description":"mobileapp",  
-      "imgurl":"images/portfolio/girl.jpg"
+      "name":"Vivace Records",
+      "description":"Web App",  
+      "imgurl":"images/portfolio/vivace.png"
     },
     {
-      "name":"project4",
-      "description":"mobileapp",
-      "imgurl":"images/portfolio/farmerboy.jpg"
+      "name":"Robosub",
+      "description":"Autonomous Underwater Vehicle",
+      "imgurl":"images/portfolio/robosub.jpg"
     }
   ],
   "testimonials":[
     {
-      "description":"This is a sample testimonial",
+      "description":"Dave is cool",
       "name":"Some technical guy"
     },
     {
-      "description":"This is a sample testimonial",
+      "description":"He taught me how to tie my shoes",
       "name":"Some technical guy"
     }
   ]

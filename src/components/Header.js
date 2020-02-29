@@ -13,7 +13,7 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
              <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+               <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
                <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
@@ -26,6 +26,7 @@ export default class Header extends Component {
                </h3>
                <hr/>
                <ul className="social">
+               
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
@@ -36,6 +37,23 @@ export default class Header extends Component {
                           }
                     )
                   }
+                  <li key="mySpace">
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                      <i>
+                        <span style={{fontSize: 15 + 'px', marginLeft: -2.5+'em', marginTop: .5+'em'}} className="fa-stack">
+                          <i className="fa fa-user fa-stack-2x"
+                            style={{fontSize: 0.5 +'em', marginLeft: -0.67+'em', marginTop: 0.46+'em'}}>
+                          </i>
+                          <i className="fa fa-user fa-stack-2x fa-user"
+                            style={{fontSize: 1+'em'}}>
+                          </i>
+                          <i className="fa fa-user fa-stack-2x fa-user"
+                            style={{fontSize: 1.5+'em', marginLeft: 0.37+'em', marginTop: -0.16+'em'}}>
+                          </i>
+                        </span>
+                      </i>
+                    </a>
+                  </li>
                </ul>
             </div>
          </div>
