@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8"/>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                font-size: larger;
+              }
+              table {
+                width: 100%;
+              }
+        </style>
+    </head>
+    Kirsty Harding <Kirsty.Harding@aurecongroup.com>; Madeleine Page <Madeleine.Page@aurecongroup.com>; Miro Djuric <Miro.Djuric@aurecongroup.com>
+    <body>
+        <h1>TABLES</h1>
+        <div id="tables"></div>
+    </body>
+
+    <script type="application/javascript"> 
+        function loadJSON(callback) {   
+            var xobj = new XMLHttpRequest();
+            xobj.overrideMimeType("application/json");
+            xobj.open('GET', 'http://dummy.restapiexample.com/api/v1/employees', true);
+            xobj.onreadystatechange = function () {
+                if (xobj.readyState == 4 && xobj.status == "200") {
+                    callback(xobj.responseText);
+                    }
+                };
+            xobj.send(null);  
+        }
+
+        function addHeaders(table, keys) {
+            var row = table.insertRow();
+            for( key in keys) {
+                var cell = row.insertCell();
+                cell.appendChild(document.createTextNode(keys[key]));
+            }
+        }
+
+        function init() {
+            loadJSON(function(response) {
+                var objects = JSON.parse(response);
+                var table = document.createElement('table');
+                console.log(objects.data)
+                for (object in objects.data) {
+                    var thisObject = objects.data[object]
+                        if (object == 0){
+                            addHeaders(table, Object.keys(thisObject))
+                        }
+                    var row = table.insertRow();
+                    Object.keys(thisObject).forEach(function(i){
+                        var cell = row.insertCell();
+                        cell.appendChild(document.createTextNode(thisObject[i]));
+                    })
+                }
+                document.getElementById('tables').appendChild(table)
+            });
+        }
+        init();
+    </script>
+</html>

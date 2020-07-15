@@ -94,24 +94,36 @@ let resumeData = {
   ],
   "portfolio":[
     {
+      "id":"0",
       "name":"Travel Planner",
       "description":"iOS App",
-      "imgurl":"images/portfolio/travel.png"
+      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/TravelPlanner/travel.png"
     },
     {
+      "id":"1",
       "name":"eHawk Tracker",
       "description":"iOS and Android app",
-      "imgurl":"images/portfolio/eHawk.png"
+      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/RePath/eHawk.png",
     },
     {
+      "id":"2",
       "name":"Vivace Records",
       "description":"Web App",  
-      "imgurl":"images/portfolio/vivace.png"
+      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/Vivace/vivace.png"
     },
     {
+      "id":"3",
       "name":"Robosub",
-      "description":"Autonomous Underwater Vehicle",
-      "imgurl":"images/portfolio/robosub.jpg"
+      "description":"Robotics - Autonomous Underwater Vehicle",
+      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/RoboSub/robosub.jpg"
     }
   ],
   "testimonials":[

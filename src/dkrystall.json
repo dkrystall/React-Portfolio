@@ -1,0 +1,21 @@
+[{
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/david-krystall-64646a15/",
+        "className": "fa fa-linkedin"
+    },
+    {
+        "name": "github",
+        "url": "https://github.com/dkrystall/",
+        "className": "fa fa-github"
+    },
+    {
+        "name": "twitter",
+        "url": "http://twitter.com/retebitall",
+        "className": "fa fa-twitter"
+    },
+    {
+        "name": "myspace",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "className": "fa fa-myspace"
+    }
+]
