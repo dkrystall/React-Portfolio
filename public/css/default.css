@@ -53,7 +53,7 @@ time, mark, audio, video {
    padding: 0;
    border: 0;
    outline: 0;
-   font-size: 100%;
+   font-size: 1.08em;
    vertical-align: baseline;
    background: transparent;
 }
@@ -464,7 +464,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #0000;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
@@ -593,8 +593,8 @@ input[type="checkbox"] { display: inline; }
 /* default
 --------------------------------------------------------------- */
 .row {
-   width: 96%;
-   max-width: 1020px;
+   width: 100%;
+   max-width: auto;
    margin: 0 auto;
 }
 /* fixed width for IE8 */
@@ -608,7 +608,6 @@ input[type="checkbox"] { display: inline; }
 .row:before,
 .row:after {
     content: " ";
-    display: table;
 }
 .row:after {
     clear: both;

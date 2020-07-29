@@ -95,36 +95,113 @@ let resumeData = {
   "portfolio":[
     {
       "id":"0",
+      "name":"D-Minder",
+      "description":"iOS and Android App",
+      "stack":[],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/dminder/dminder2.png",
+      "url":""
+    },
+    {
+      "id":"1",
+      "name":"Robosub",
+      "description":"Robotics - Autonomous Underwater Vehicle",
+      "stack":["Python","C++","Robot Operation System","OpenCV","Darknet YOLOv3","Ubuntu 18.03","Arduino"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/RoboSub/eagle2.jpg",
+      "url":"https://csns.calstatela.edu/department/cs/project/view?id=6675265"
+    },
+    {
+      "id":"2",
+      "name":"RePath Tracker",
+      "description":"Web, iOS, and Android app",
+      "longDescription":"Multiplatform App to help reduce recidivism for parolee's",
+      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/RePath/eHawk.png",
+      "url":"https://ehawksolutions.com/repath/"
+    },
+    {
+      "id":"3",
+      "name":"Strategic Employment Partners",
+      "description":"Single-Page Application",  
+      "stack":["ReactJS","HTML","CSS","Javascript","Amazon S3","Amazon Route 53"],
+      "responsibilities": "Designed and Deployed a single page application as a landing page for the Strategic Employment Partness recruiting firm.",
+      "imgurl":"images/portfolio/SEP/SEP_site.png",
+      "url":"https://strategicemployment.com"
+    },
+    {
+      "id":"4",
+      "name":"Vivace Records",
+      "description":"Web App",  
+      "stack":["HTML","CSS","Javascript","Next.js","Selz","Amazon S3"],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/Vivace/vivace.png",
+      "url":"https://www.vivacerecords.com"
+    },
+    {
+      "id":"5",
       "name":"Travel Planner",
       "description":"iOS App",
-      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "longDescription":"A Mobile application to plan travel itineraries, with the ability for rebranding for different travel agencies.",
+      "stack":["Swift","XCode","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
       "responsibilities": "Did Stuff",
       "imgurl":"images/portfolio/TravelPlanner/travel.png"
     },
     {
-      "id":"1",
-      "name":"eHawk Tracker",
-      "description":"iOS and Android app",
-      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "id":"6",
+      "name":"Budget Impact Estimator",
+      "description":"iPad App",
+      "stack":[],
       "responsibilities": "Did Stuff",
-      "imgurl":"images/portfolio/RePath/eHawk.png",
+      "imgurl":"images/portfolio/bie/bie.png",
+      "url":""
     },
     {
-      "id":"2",
-      "name":"Vivace Records",
-      "description":"Web App",  
-      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "id":"7",
+      "name":"Jane",
+      "description":"iOS and Android App to help with Legalized Marijuana banking problems",
+      "stack":["Swift","Objective-C","Xcode","Realm","UIKit","Foundation","CoreData"],
       "responsibilities": "Did Stuff",
-      "imgurl":"images/portfolio/Vivace/vivace.png"
+      "imgurl":"images/portfolio/Jane/jane.png",
+      "url":"https://www.businessinsider.com/jane-marijuana-banking-2016-6"
     },
     {
-      "id":"3",
-      "name":"Robosub",
-      "description":"Robotics - Autonomous Underwater Vehicle",
-      "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
+      "id":"8",
+      "name":"DrHolick.com",
+      "description":"Personal Single Page Application for leading Vitamin D Authority Dr. Michael Holick",
+      "stack":["HTML","CSS","Javascript","Bootstrap","Amazon S3","Route 53","SMTP"],
+      "responsibilities": "Designed and Developed a single page application for Dr. Michael F. Holick. Designed mockups for the site using Adobe XD. Communicated with client to gather requirements and used an agile work methodology to produce releases for client through Amazon S3. Configured DNS and Domain services for the site using Route 53. Developed the single page application using basic HTML and CSS with Bootstrap, and implemented a mail client using JavaScript",
+      "imgurl":"images/portfolio/drholick/drholick.png",
+      "url":"https://drholick.com"
+    },
+    {
+      "id":"9",
+      "name":"Bishop McCann - CHAT",
+      "description":"Ad Campaign for Bishop-McCann's CHAT Series",
+      "stack":[],
       "responsibilities": "Did Stuff",
-      "imgurl":"images/portfolio/RoboSub/robosub.jpg"
-    }
+      "imgurl":"images/portfolio/RoboSub/robosub.jpg",
+      "url":"https://bishopmccann.com/news/bishop-mccann-unveils-chat-2-0/"
+    },
+    {
+      "id":"10",
+      "name":"Pitch Trainer",
+      "description":"One Day Build from HackTech 2017",
+      "stack":[],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/RoboSub/robosub.jpg",
+      "url":"https://bishopmccann.com/news/bishop-mccann-unveils-chat-2-0/"
+    },
+    {
+      "id":"11",
+      "name":"Arroyo Insurance",
+      "description":"One Day Build from HackTech 2017",
+      "stack":[],
+      "responsibilities": "Did Stuff",
+      "imgurl":"images/portfolio/arroyo/arroyo.png",
+      "url":"http://arroyo.ontometrics.com.s3-website-us-west-2.amazonaws.com"
+    }    
   ],
   "testimonials":[
     {

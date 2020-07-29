@@ -12,12 +12,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <script async src="https://embeds.selzstatic.com/1/loader.js"></script>
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/>
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>

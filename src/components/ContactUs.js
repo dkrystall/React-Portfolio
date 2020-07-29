@@ -1,26 +1,32 @@
 import React, { Component } from 'react';
+import {Row, Col, Container} from 'react-bootstrap';
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="contact">
-          <div className="row section-head">
-            <div className="ten columns">
+        <Container>
+          <Row className="section-head">
+            <Col md={12}>
               <p className="lead">
               Feel free to contact me for any work or suggestions below
               </p>
-            </div>
-          </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <h4>Linked in :
-                  <a href={resumeData.socialLinks[0].url.toString()}>David Krystall</a>
-                </h4>
-              </div>
-            </aside>
-          </div>
-        </section>
-        );
+            </Col>
+          </Row>
+          <Row>
+            <Col md={6}>
+              <h4>Linked in :
+                <a target="_" href={resumeData.socialLinks[0].url.toString()}> David Krystall</a>
+              </h4>
+            </Col>
+            <Col md={6}>
+              <h4>e-mail :
+                <a href="mailto:dave@davidkrystall.com"> dave@davidkrystall.com</a>
+              </h4>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    );
   }
 }

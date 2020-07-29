@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
+import {Nav, Row, Col, Container} from 'react-bootstrap';
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      
       <header id="home">
-         <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-            <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
-               <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
-               <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
-               <li><a className="smoothscroll" href="#contact">Contact</a></li>
-            </ul>
-         </nav>
-
+        <Nav id="nav-wrap" className="justify-content-center" activeKey="Home" as="ul">
+          <Nav.Item as="li" className="current">
+            <Nav.Link className="smoothscroll" href="#home">Home</Nav.Link>
+          </Nav.Item>
+          <Nav.Item as="li">
+            <Nav.Link className="smoothscroll" href="#resume">Resume</Nav.Link>
+          </Nav.Item>
+          <Nav.Item as="li">
+            <Nav.Link className="smoothscroll" href="#portfolio">Portfolio</Nav.Link>
+          </Nav.Item>
+          <Nav.Item as="li">
+            <Nav.Link className="smoothscroll" href="#contact">Contact</Nav.Link>
+          </Nav.Item>
+        </Nav>
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">I am {resumeData.name}.</h1>

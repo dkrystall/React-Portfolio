@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
+import { Row, Col, Container } from 'react-bootstrap';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
+        <Container>
+         <Row className="education">
 
-         <div className="row education">
-
-            <div className="three columns header-col">
+            <Col md={3} className="header-col">
                <h1><span>Education</span></h1>
-            </div>
+            </Col>
 
-            <div className="nine columns main-col">
+            <Col md={9} className="main-col">
               {
                 resumeData.education && resumeData.education.map((item)=>{
                   return(
-                    <div className="row item">
-                       <div className="twelve columns">
+                    <Row className="row item">
+                       <Col md={12} className="columns">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
                           {item.specialization}
@@ -24,24 +25,24 @@ export default  class Resume extends Component {
                           <p>
                           {item.Achievements}
                           </p>
-                       </div>
-                    </div>
+                       </Col>
+                    </Row>
                   )
                 })
               }
-            </div>
-         </div>
-        <div className="row work">
-            <div className="three columns header-col">
+            </Col>
+         </Row>
+        <Row className="work">
+            <Col md={3}className="header-col">
                <h1><span>Work</span></h1>
-            </div>
+            </Col>
 
-            <div className="nine columns main-col">
+            <Col md={9} className="main-col">
               {
                 resumeData.work && resumeData.work.map((item) => {
                   return(
-                    <div className="row item">
-                       <div className="twelve columns">
+                    <Row className="item">
+                       <Col md={12}>
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
@@ -49,51 +50,49 @@ export default  class Resume extends Component {
                           <p>
                           {item.Achievements}
                           </p>
-                       </div>
+                       </Col>
 
-                    </div>
+                    </Row>
 
                   )
                 })
               }
-            </div> 
-         </div>
+            </Col> 
+         </Row>
 
 
-         <div className="row skill">
+         <Row className="skill">
 
-            <div className="three columns header-col">
+            <Col md={3} className="header-col">
                <h1><span>Skills</span></h1>
-            </div>
+            </Col>
 
-            <div className="nine columns main-col">
+            <Col md={9} className="main-col">
 
                <p>
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+            <div className="">
 
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item, index) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}{index}</em>
-                      </li>
-                    )
-                  })
-                }
+              <ul className="skills"> Technologies: 
+                  {
+                    resumeData.skills && resumeData.skills.map((item, index) => {
+                      return(
+                        <em> {item.skillname} |</em>
+                        
+                      )
+                    })
+                  }
 
-   					</ul>
+              </ul>
 
-   				</div>
+            </div>
 
-   			</div>
+          </Col>
 
-         </div>
-
+         </Row>
+        </Container>     
       </section>
     );
   }
