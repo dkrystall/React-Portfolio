@@ -1,6 +1,7 @@
 let resumeData = {
   "imagebaseurl":"https://github.com/dkrystall/",
   "name": "David Krystall",
+  "nickname":"Dave",
   "role": "Software Engineer",
   "linkedinId":"david-krystall-64646a15",
   "skypeid": "",
@@ -44,7 +45,7 @@ let resumeData = {
     {
       "CompanyName":"Ontometrics",
       "specialization":"Software Engineer",
-      "MonthOfLeaving":"Feb",
+      "MonthOfLeaving":"August",
       "YearOfLeaving":"2020",
       "Achievements":""
     },
@@ -80,6 +81,15 @@ let resumeData = {
       "skillname":"CSS3"
     },
     {
+      "skillname":"Javascript+ES6"
+    },
+    {
+      "skillname":"Typescript"
+    },
+    {
+      "skillname":"Node with NPM"
+    },
+    {
       "skillname":"Reactjs"
     },
     {
@@ -91,23 +101,32 @@ let resumeData = {
     {
       "skillname":"Python"
     },
+    {
+      "skillname":"C++"
+    },
+    {
+      "skillname":"ROS"
+    },
+    {
+      "skillname":"Scala"
+    }
   ],
   "portfolio":[
     {
       "id":"0",
       "name":"D-Minder",
       "description":"iOS and Android App",
-      "stack":[],
-      "responsibilities": "Did Stuff",
+      "stack":["Swift with Xcode","Cocoa","SwiftUI","CoreData","CloudKit","Foundation","Android","Kotlin","Jetpack"],
+      "responsibilities": "Majority of responsibilities on iOS. Responsible for refactoring solar calculations using bezier curve functions with Swift. Designing and developing front end components (Timer, HomeScreen, History). Localizing the iOS mobile application into Spanish, Italian, and Portuguese. ",
       "imgurl":"images/portfolio/dminder/dminder2.png",
-      "url":""
+      "url":"http://dminder.ontometrics.com"
     },
     {
       "id":"1",
       "name":"Robosub",
       "description":"Robotics - Autonomous Underwater Vehicle",
       "stack":["Python","C++","Robot Operation System","OpenCV","Darknet YOLOv3","Ubuntu 18.03","Arduino"],
-      "responsibilities": "Did Stuff",
+      "responsibilities": "Main responsibility was for researching and implementing a Computer Vision system using Convolution Neural Networks to be integrated with an autonomous underwater vehicle running the Robot Operating System. It was implemented and trained using Darknet YOLOv3. Had to install camera drivers and mount them to ROS using python. I made an observer using Python with ROS to listen to changes in the camera node, to be fed to the Computer Vision node to give instructions to the AUV. I also helped implement the state machine used by the robot to navigate predetermined obstacles",
       "imgurl":"images/portfolio/RoboSub/eagle2.jpg",
       "url":"https://csns.calstatela.edu/department/cs/project/view?id=6675265"
     },
@@ -117,7 +136,7 @@ let resumeData = {
       "description":"Web, iOS, and Android app",
       "longDescription":"Multiplatform App to help reduce recidivism for parolee's",
       "stack":["Swift", "Kotlin","XCode","Android Studio","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
-      "responsibilities": "Did Stuff",
+      "responsibilities": "Responsible for Front End development for an iOS application using an AWS serverless backend.",
       "imgurl":"images/portfolio/RePath/eHawk.png",
       "url":"https://ehawksolutions.com/repath/"
     },
@@ -135,7 +154,7 @@ let resumeData = {
       "name":"Vivace Records",
       "description":"Web App",  
       "stack":["HTML","CSS","Javascript","Next.js","Selz","Amazon S3"],
-      "responsibilities": "Did Stuff",
+      "responsibilities": "Solo Full Stack Developer. Used a static generator for a storefront for a small business. Product uses Selz as the CMS so the client and self-update the app with iminial costs",
       "imgurl":"images/portfolio/Vivace/vivace.png",
       "url":"https://www.vivacerecords.com"
     },
@@ -145,7 +164,7 @@ let resumeData = {
       "description":"iOS App",
       "longDescription":"A Mobile application to plan travel itineraries, with the ability for rebranding for different travel agencies.",
       "stack":["Swift","XCode","UIKit", "SwiftUI","Foundation", "Core Location", "AWS AppSync", "AWS Cognito", "AWS Lambda", "Twilio"],
-      "responsibilities": "Did Stuff",
+      "responsibilities": "Full Stack Developer for an iOS application. Responsible for Domain Modeling and handling data within the app. Made builds and release to Test Flight. ",
       "imgurl":"images/portfolio/TravelPlanner/travel.png"
     },
     {
@@ -153,7 +172,7 @@ let resumeData = {
       "name":"Budget Impact Estimator",
       "description":"iPad App",
       "stack":[],
-      "responsibilities": "Did Stuff",
+      "responsibilities": "Solo Full Stack Developer for a budgeting iOS application for Entertainment Producers. Implemented different union standard rates(DGA, SAG-AFTRA, IATSE) with Swift and XCode. Functionality app was to Store different Shoots/Projects in local memory using Core Data in case service was not available at location, then the user(Producer) would go through a paging controller if extra time was foreseen to be needed on-set. Producer would select Cast+Crew to stay Overtime with n amount of hours, then estimate would be generated and sent to Accountant's for approval. ",
       "imgurl":"images/portfolio/bie/bie.png",
       "url":""
     },
@@ -180,25 +199,16 @@ let resumeData = {
       "name":"Bishop McCann - CHAT",
       "description":"Ad Campaign for Bishop-McCann's CHAT Series",
       "stack":[],
-      "responsibilities": "Did Stuff",
-      "imgurl":"images/portfolio/RoboSub/robosub.jpg",
+      "responsibilities": "Full Stack Developer for implement designs created by Graphic Designers for an Ad Campaign for the Bishop McCann chat series. Took PSD files and implemented UI with HTML/CSS/Bootstrap",
+      "imgurl":"images/portfolio/chatSeries/chat.png",
       "url":"https://bishopmccann.com/news/bishop-mccann-unveils-chat-2-0/"
     },
     {
       "id":"10",
-      "name":"Pitch Trainer",
-      "description":"One Day Build from HackTech 2017",
-      "stack":[],
-      "responsibilities": "Did Stuff",
-      "imgurl":"images/portfolio/RoboSub/robosub.jpg",
-      "url":"https://bishopmccann.com/news/bishop-mccann-unveils-chat-2-0/"
-    },
-    {
-      "id":"11",
       "name":"Arroyo Insurance",
-      "description":"One Day Build from HackTech 2017",
+      "description":"Web Application for displaying current Commercial and Personal insurance policies from Arroyo Insurance",
       "stack":[],
-      "responsibilities": "Did Stuff",
+      "responsibilities": "Full Stack Developer, responsible for contacting customer and gathering requirements. Designed mock-ups for client and developed application using a java-based static site generator.",
       "imgurl":"images/portfolio/arroyo/arroyo.png",
       "url":"http://arroyo.ontometrics.com.s3-website-us-west-2.amazonaws.com"
     }    
